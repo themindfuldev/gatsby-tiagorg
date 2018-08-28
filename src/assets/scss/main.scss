@@ -56,7 +56,7 @@
 		}
 	}
 
-	body, input, select, textarea {
+	body, input, button, select, textarea {
 		color: _palette(fg);
 		font-family: _font(family);
 		font-size: 16pt;
@@ -795,6 +795,7 @@
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
+	button[type="submit"],
 	.button {
 		@include vendor('appearance', 'none');
 		@include vendor('transition', ('background-color #{_duration(transition)} ease-in-out', 'color #{_duration(transition)} ease-in-out', 'border-color #{_duration(transition)} ease-in-out'));
@@ -804,6 +805,7 @@
 		color: _palette(fg-bold) !important;
 		cursor: pointer;
 		display: inline-block;
+		font-size: 1em;
 		font-weight: _font(weight-bold);
 		height: 3.15em;
 		height: calc(2.75em + 6px);
@@ -870,6 +872,10 @@
 			border-color: _palette(border2-bg) !important;
 			color: _palette(fg-light) !important;
 			cursor: default;
+		}
+
+		span {
+			padding: 0 0.25em;
 		}
 	}
 
