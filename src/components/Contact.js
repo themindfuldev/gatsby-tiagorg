@@ -1,4 +1,5 @@
 import React from 'react'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Contact extends React.Component {
     render() {
@@ -21,7 +22,7 @@ class Contact extends React.Component {
                                 <ul className="actions">
                                     <li>
                                         <button type="submit" className="icon">
-                                            <span><i className="icon fa-envelope-o" /></span>
+                                            <span><FontAwesomeIcon icon={['far', 'envelope']} /></span>
                                             <span>Send Message</span>
                                         </button>
                                     </li>
