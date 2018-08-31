@@ -5,7 +5,10 @@ import Helmet from 'react-helmet'
 
 // import Lightbox from 'react-images'
 import Bio from '../components/Bio'
+import Highlights from '../components/Highlights'
+import Works from '../components/Works'
 import Gallery from '../components/Gallery'
+import Interests from '../components/Interests'
 import Contact from '../components/Contact'
 
 import thumb01 from '../assets/images/thumbs/01.jpg'
@@ -90,9 +93,15 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <Bio />                   
+                    <Bio />
 
-                    <section id="two">
+                    <Highlights />
+
+                    <Works />
+
+                    <Interests />
+
+                    {/* <section id="two">
                         <h2>Recent Work</h2>
 
                         <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
@@ -105,7 +114,7 @@ class HomeIndex extends React.Component {
                         <ul className="actions">
                             <li><a href="#" className="button">Full Portfolio</a></li>
                         </ul>
-                    </section>
+                    </section> */}
 
                     <Contact />
 
