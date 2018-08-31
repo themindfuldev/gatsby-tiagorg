@@ -87,8 +87,8 @@ class HomeIndex extends React.Component {
         return (
             <div>
                 <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />                   
                 </Helmet>
 
                 <div id="main">
