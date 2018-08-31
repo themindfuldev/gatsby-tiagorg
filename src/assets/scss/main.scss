@@ -594,7 +594,6 @@
 			li {
 				display: inline-block;
 				padding: 0 0.5em 0.5em 0.5em;
-				width: 48px;
     			text-align: center;
 
 				&:last-child {
@@ -950,7 +949,7 @@
 		}
 
 		.image.avatar {
-			margin: 0 0 (_size(element-margin) * 0.5) 0;
+			margin: 0 auto (_size(element-margin) * 0.5);
 			max-width: 15em;
 		}
 
@@ -1230,9 +1229,6 @@
 		/* Footer */
 
 			#footer {
-				.icons {
-					max-width: 10em;
-				}
 
 				.copyright {
 					li {
@@ -1303,6 +1299,10 @@
 						display: inline;
 					}
 				}
+
+				.image.avatar {
+					display: block;
+				}
 			}
 
 		/* Footer */
@@ -1317,6 +1317,7 @@
 
 				.icons {
 					margin: 0 0 (_size(element-margin) * 0.5) 0;
+					max-width: initial;
 				}
 
 				.copyright {

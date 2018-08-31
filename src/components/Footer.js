@@ -20,21 +20,9 @@ class Footer extends React.Component {
                             </a>
                         </li>
                         <li>
-                            <a href="https://stackoverflow.com/users/4438850/tiago-garcia" className="icon" target="_blank" rel="noopener noreferrer" title="Stack Overflow">
-                                <FontAwesomeIcon icon={['fab', 'stack-overflow']} size="2x" />
-                                <span className="label">Stack Overflow</span>
-                            </a>
-                        </li>
-                        <li>
                             <a href="https://www.linkedin.com/in/themindfuldev" className="icon" target="_blank" rel="noopener noreferrer" title="LinkedIn">
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" />
                                 <span className="label">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://medium.com/@themindfuldev" className="icon" target="_blank" rel="noopener noreferrer" title="Medium">
-                                <FontAwesomeIcon icon={['fab', 'medium']} size="2x" />
-                                <span className="label">Medium</span>
                             </a>
                         </li>
                         <li>

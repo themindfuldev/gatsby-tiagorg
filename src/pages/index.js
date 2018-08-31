@@ -4,6 +4,7 @@ import get from 'lodash/get'
 import Helmet from 'react-helmet'
 
 // import Lightbox from 'react-images'
+import Bio from '../components/Bio'
 import Gallery from '../components/Gallery'
 import Contact from '../components/Contact'
 
@@ -89,15 +90,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main">
 
-                    <section id="one">
-                        <header className="major">
-                            <h2>Hi, I am <strong>Tiago Romero Garcia</strong>.</h2>
-                        </header>
-                        <p>Front-end architect in San Francisco. Conference speaker and article writer. Believer in servant leadership and ahimsa. Focusing on equanimity through mindfulness. Platelets donor.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
-                    </section>
+                    <Bio />                   
 
                     <section id="two">
                         <h2>Recent Work</h2>

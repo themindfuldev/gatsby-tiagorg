@@ -8,9 +8,9 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faSquare } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
-import { faTwitter, faGithub, faLinkedin, faMedium, faStackOverflow } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSquare, faEnvelope, faTwitter, faGithub, faLinkedin, faMedium, faStackOverflow);
+library.add(faSquare, faEnvelope, faTwitter, faGithub, faLinkedin);
 
 class Template extends React.Component {
     render() {
