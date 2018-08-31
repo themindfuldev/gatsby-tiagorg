@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 class Footer extends React.Component {
     render() {
         return (
-            <div id="footer">
+            <section id="footer">
                 <div className="inner">
                     <ul className="icons">
                         <li>
@@ -51,7 +51,7 @@ class Footer extends React.Component {
                         <li>&copy; 2018 Tiago Romero Garcia</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
                     </ul>
                 </div>
-            </div>
+            </section>
         )
     }
 }
