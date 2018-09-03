@@ -11,44 +11,17 @@ import Contact from '../components/Contact'
 class HomeIndex extends React.Component {
     
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title
-        const siteDescription = this.props.data.site.siteMetadata.description
-
         return (
-            <div>
-                <Helmet>
-                    <title>{siteTitle}</title>
-                    <meta name="description" content={siteDescription} />                   
-                </Helmet>
-
-                <div id="main">
-
-                    <Bio />
-
-                    <Highlights />
-
-                    <Works />
-
-                    <Interests />
-
-                    <Contact />
-
-                </div>
-
+            <div id="main">
+                <Bio />
+                <Highlights />
+                <Works />
+                <Interests />
+                <Contact />
             </div>
+
         )
     }
 }
 
 export default HomeIndex
-
-export const pageQuery = graphql`
-    query PageQuery {
-        site {
-            siteMetadata {
-                title
-                description
-            }
-        }
-    }
-`

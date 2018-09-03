@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: "Tiago Romero Garcia",
     author: "Tiago Romero Garcia",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    description: "Front-end architect in San Francisco, conference speaker and article writer."
   },
   pathPrefix: '/',
   plugins: [
@@ -46,14 +46,6 @@ module.exports = {
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
         exclude: [],
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-web-font-loader',
-      options: {
-        google: {
-          families: ['Source Sans Pro:400,400italic']
-        }
       },
     },
     `gatsby-transformer-sharp`,

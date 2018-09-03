@@ -14,9 +14,9 @@ class Contact extends React.Component {
                             <input type="hidden" name="_next" value="https://tiagorg.com/email-received" />
                             <input type="text" name="_gotcha" style={{display : 'none'}} />
                             <div className="row uniform 50%">
-                                <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" required /></div>
-                                <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" required /></div>
-                                <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4" required></textarea></div>
+                                <div className="6u 12u$(xsmall)"><input type="text" aria-label="Name" title="Name" name="name" id="name" placeholder="Name" required /></div>
+                                <div className="6u 12u$(xsmall)"><input type="email" aria-label="Email" title="Email" name="email" id="email" placeholder="Email" required /></div>
+                                <div className="12u"><textarea name="message" id="message" aria-label="Message" title="Message" placeholder="Message" rows="4" required></textarea></div>
                             </div>                        
                             <div className="row uniform 50%">
                                 <ul className="actions">

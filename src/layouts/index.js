@@ -1,5 +1,6 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Helmet from 'react-helmet'
+
 import '../assets/scss/main.scss'
 
 import Sidebar from '../components/Sidebar'
@@ -14,10 +15,18 @@ library.add(faSquare, faEnvelope, faTwitter, faGithub, faLinkedin)
 
 class Template extends React.Component {
     render() {
+        const siteTitle = this.props.data.site.siteMetadata.title
+        const siteDescription = this.props.data.site.siteMetadata.description
+
         const { children } = this.props
 
         return (
             <div>
+                <Helmet>
+                    <html lang="en" role="main" />
+                    <title>{siteTitle}</title>
+                    <meta name="description" content={siteDescription} />
+                </Helmet>
                 <Sidebar />
                 {children()}
             </div>
@@ -34,3 +43,14 @@ Template.propTypes = {
 }
 
 export default Template
+
+export const pageQuery = graphql`
+    query PageQuery {
+        site {
+            siteMetadata {
+                title
+                description
+            }
+        }
+    }
+`
