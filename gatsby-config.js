@@ -33,7 +33,7 @@ module.exports = {
           "gatsby-remark-copy-linked-files",
         ],
       },
-    },
+    },      
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
@@ -46,6 +46,14 @@ module.exports = {
         respectDNT: true,
         // Avoids sending pageview hits from custom paths
         exclude: [],
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-web-font-loader',
+      options: {
+        google: {
+          families: ['Source Sans Pro:400,400italic']
+        }
       },
     },
     `gatsby-transformer-sharp`,

@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 import Footer from './Footer'
 
@@ -8,9 +9,9 @@ class Sidebar extends React.Component {
             <aside id="sidebar">
                 <div className="inner">
                     <p className="image avatar">
-                        <a href="/#">
+                        <Link to='/'>
                             <img src="https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=600" alt="Tiago Romero Garcia" />
-                        </a>
+                        </Link>
                     </p>
                     <p className="my-title">
                         <h1><strong>Tiago Romero Garcia</strong></h1>

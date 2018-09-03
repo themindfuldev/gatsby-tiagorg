@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'gatsby-link'
 
 class Bio extends React.Component {
     render() {
@@ -20,7 +21,7 @@ class Bio extends React.Component {
                     to existing open-source software, and volunteering with non-profits for
                     under-represented groups as Women Who Code and Girls Develop It.</p>
                 <ul className="actions">
-                    <li><a href="#highlights" className="button">See my highlights</a></li>
+                    <li><Link to='#highlights' className="button">See my highlights</Link></li>
                 </ul>
             </section>
         )

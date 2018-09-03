@@ -1,4 +1,5 @@
 import React from 'react'
+import ExternalLink from '../components/ExternalLink'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Footer extends React.Component {
@@ -8,35 +9,35 @@ class Footer extends React.Component {
                 <div className="inner">
                     <ul className="icons">
                         <li>
-                            <a href="https://twitter.com/themindfuldev" className="icon" target="_blank" rel="noopener noreferrer" title="Twitter">
+                            <ExternalLink href="https://twitter.com/themindfuldev" className="icon" title="Twitter">
                                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
                                 <span className="label">Twitter</span>
-                            </a>
+                            </ExternalLink>
                         </li>
                         <li>
-                            <a href="https://github.com/themindfuldev" className="icon" target="_blank" rel="noopener noreferrer" title="Github">
+                            <ExternalLink href="https://github.com/themindfuldev" className="icon" title="Github">
                                 <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
                                 <span className="label">Github</span>
-                            </a>
+                            </ExternalLink>
                         </li>
                         <li>
-                            <a href="https://www.linkedin.com/in/themindfuldev" className="icon" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+                            <ExternalLink href="https://www.linkedin.com/in/themindfuldev" className="icon" title="LinkedIn">
                                 <FontAwesomeIcon icon={['fab', 'linkedin']} size="2x" />
                                 <span className="label">LinkedIn</span>
-                            </a>
+                            </ExternalLink>
                         </li>
                         <li>
-                            <a href="https://dev.to/themindfuldev" className="icon" target="_blank" rel="noopener noreferrer" title="DEV">
+                            <ExternalLink href="https://dev.to/themindfuldev" className="icon" title="DEV">
                                 <span className="fa-layers fa-2x">
                                     <FontAwesomeIcon icon="square" style={{ transform: 'scaleX(1.25)' }} />
                                     <span className="fa-layers-text" style={{ fontSize: '0.5em', fontWeight: 900, color: 'black' }}>DEV</span>
                                 </span>
                                 <span className="label">DEV</span>
-                            </a>
+                            </ExternalLink>
                         </li>
                     </ul>
                     <ul className="copyright">
-                        <li>&copy; 2018 Tiago Romero Garcia</li><li>Design: <a href="http://html5up.net" target="_blank" rel="noopener noreferrer">HTML5 UP</a></li>
+                        <li>&copy; 2018 Tiago Romero Garcia</li><li>Design: <ExternalLink href="http://html5up.net">HTML5 UP</ExternalLink></li>
                     </ul>
                 </div>
             </section>

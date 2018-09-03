@@ -1,4 +1,3 @@
-const _ = require("lodash")
 const Promise = require("bluebird")
 const path = require("path")
 const select = require(`unist-util-select`)
@@ -32,7 +31,7 @@ exports.createPages = ({ graphql, boundActionCreators }) => {
         }
 
         // Create blog posts pages.
-        _.each(result.data.allMarkdownRemark.edges, edge => {
+        result.data.allMarkdownRemark.edges.forEach( edge => {
           createPage({
             path: edge.node.frontmatter.path,
             component: blogPost
