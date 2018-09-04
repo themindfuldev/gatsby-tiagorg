@@ -5,20 +5,27 @@ import Footer from './Footer'
 
 class Sidebar extends React.Component {
     render() {
+        const { siteMetadata } = this.props
+        const {
+            title,
+            description,
+            avatar
+        } = siteMetadata
+
         return (
             <aside id="sidebar">
                 <div className="inner">
                     <p className="image avatar">
                         <Link to='/'>
-                            <img src="https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=600" alt="Tiago Romero Garcia" />
+                            <img src={avatar} alt={title} />
                         </Link>
                     </p>
                     <div className="my-title">
-                        <h1><strong>Tiago Romero Garcia</strong></h1>
-                        <p>Front-end architect in San Francisco, conference speaker and article writer.</p>
+                        <h1><strong>{title}</strong></h1>
+                        <p>{description}</p>
                     </div>
                 </div>
-                <Footer />
+                <Footer siteMetadata={siteMetadata}/>
             </aside>
         )
     }

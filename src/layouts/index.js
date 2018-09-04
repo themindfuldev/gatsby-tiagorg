@@ -15,10 +15,20 @@ library.add(faSquare, faEnvelope, faTwitter, faGithub, faLinkedin)
 
 class Template extends React.Component {
     render() {
-        const { title, description, twitter, github, linkedin, dev } = this.props.data.site.siteMetadata;
-        const image = "https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=600"
-        const twitterHandle = "@themindfuldev"
-        const url = "https://tiagorg.com"
+        const { siteMetadata } = this.props.data.site
+        const { 
+            title,
+            description,
+            twitter,
+            github,
+            linkedin,
+            dev,
+            avatar,
+            twitterHandle,
+            facebookAppId,
+            url 
+        } = siteMetadata
+
         const jsonLd = {
             "@context": "http://schema.org/",
             "@type": "Person",
@@ -36,26 +46,27 @@ class Template extends React.Component {
                     <html lang="en" role="main" />
                     <title>{title}</title>
                     <meta name="description" content={description} />
-                    <meta name="image" content={image} />
+                    <meta name="image" content={avatar} />
                     <meta name="robots" content="index,follow" />
-                    <meta name="twitter:title" content={title} />
-                    <meta name="twitter:card" content="summary" />
-                    <meta name="twitter:description" content={description} />
-                    <meta name="twitter:site" content={twitterHandle} />
-                    <meta name="twitter:creator" content={twitterHandle} />
-                    <meta name="twitter:image:src" content={image} />
                     <meta property="og:title" content={title} />
                     <meta property="og:description" content={description} />
                     <meta property="og:type" content="website" />
                     <meta property="og:site_name" content={title} />
                     <meta property="og:url" content={url} />
-                    <meta property="og:image" content={image} />
+                    <meta property="og:image" content={avatar} />
+                    <meta name="twitter:title" content={title} />
+                    <meta name="twitter:card" content="summary" />
+                    <meta name="twitter:description" content={description} />
+                    <meta name="twitter:site" content={twitterHandle} />
+                    <meta name="twitter:creator" content={twitterHandle} />
+                    <meta name="twitter:image:src" content={avatar} />
+                    <meta name="fb:app_id" content={facebookAppId} />
+                </Helmet>
                     <script
                         type="application/ld+json"
                         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
                     />
-                </Helmet>
-                <Sidebar />
+                <Sidebar siteMetadata={siteMetadata} />
                 {children()}
             </div>
         )
@@ -78,6 +89,14 @@ export const pageQuery = graphql`
             siteMetadata {
                 title
                 description
+                twitter
+                github
+                linkedin
+                dev
+                twitterHandle
+                facebookAppId
+                avatar
+                url
             }
         }
     }

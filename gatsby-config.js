@@ -4,8 +4,12 @@ module.exports = {
     description: "Front-end architect in San Francisco, conference speaker and article writer.",
     twitter: "https://twitter.com/themindfuldev",
     github: "https://github.com/themindfuldev",
-    linkedin: "https://www.linkedin.com/in/themindfuldev",
-    dev: "https://dev.to/themindfuldev"
+    linkedin: "https://linkedin.com/in/themindfuldev",
+    dev: "https://dev.to/themindfuldev",
+    twitterHandle: "@themindfuldev",
+    facebookAppId: "703069473065942",
+    avatar: "https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=600",
+    url: "https://tiagorg.com"
   },
   pathPrefix: '/',
   plugins: [
