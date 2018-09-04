@@ -69,10 +69,10 @@ class Template extends React.Component {
                     <meta name="msapplication-TileColor" content="#2b5797" />
                     <meta name="theme-color" content="#ffffff" />
                 </Helmet>
-                    <script
-                        type="application/ld+json"
-                        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-                    />
+                <script
+                    type="application/ld+json"
+                    dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                />
                 <Sidebar siteMetadata={siteMetadata} />
                 {children()}
             </div>
