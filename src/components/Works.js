@@ -31,7 +31,9 @@ class Works extends React.Component {
                         essential design patterns for JavaScript applications such as Constructor, Façade and 
                         Module, focusing on the different module strategies as CommonJS, AMD and ES2015 Modules.</li>
                     <li><ExternalLink href="http://themindfuldev.github.io/talk-10-tips-for-writing-maintainable-code-in-backbone">
-                        10 tips for writing maintainable code in Backbone.js</ExternalLink> is about some 
+                        10 tips for writing maintainable code in Backbone.js</ExternalLink> and <ExternalLink
+                        href="http://themindfuldev.github.io/talk-backbone-tricks-or-treats-html5devconf">
+                        Backbone.js tricks or treats</ExternalLink> are about some 
                         pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the 
                         audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve 
                         problems about performance, memory, productivity and code organization.</li>

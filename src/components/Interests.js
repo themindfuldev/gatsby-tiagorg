@@ -21,7 +21,7 @@ class Interests extends React.Component {
                     <li>Regular yogi and meditator.</li>
                     <li>Ethical vegan.</li>
                     <li>Frequent platelets donor.</li>
-                    <li>Volunteer with vegan meal shares to communities in need and animal sanctuaries in the Bay Area.</li>
+                    <li>Volunteer with meal shares at communities in need and animal sanctuaries in the Bay Area.</li>
                 </ul>
                 <ul>
                     <li>Married to <ExternalLink href="https://cintiaromero.com">Cintia Romero</ExternalLink>.</li>
