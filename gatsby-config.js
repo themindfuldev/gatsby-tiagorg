@@ -1,8 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: "Tiago Romero Garcia",
-    author: "Tiago Romero Garcia",
-    description: "Front-end architect in San Francisco, conference speaker and article writer."
+    description: "Front-end architect in San Francisco, conference speaker and article writer.",
+    twitter: "https://twitter.com/themindfuldev",
+    github: "https://github.com/themindfuldev",
+    linkedin: "https://www.linkedin.com/in/themindfuldev",
+    dev: "https://dev.to/themindfuldev"
   },
   pathPrefix: '/',
   plugins: [

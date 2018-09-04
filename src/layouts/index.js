@@ -15,8 +15,18 @@ library.add(faSquare, faEnvelope, faTwitter, faGithub, faLinkedin)
 
 class Template extends React.Component {
     render() {
-        const siteTitle = this.props.data.site.siteMetadata.title
-        const siteDescription = this.props.data.site.siteMetadata.description
+        const { title, description, twitter, github, linkedin, dev } = this.props.data.site.siteMetadata;
+        const image = "https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=600"
+        const twitterHandle = "@themindfuldev"
+        const url = "https://tiagorg.com"
+        const jsonLd = {
+            "@context": "http://schema.org/",
+            "@type": "Person",
+            "name": title,
+            "jobTitle": description,
+            "url": url,
+            "sameAs": [twitter, github, linkedin, dev]
+        }
 
         const { children } = this.props
 
@@ -24,8 +34,26 @@ class Template extends React.Component {
             <div>
                 <Helmet>
                     <html lang="en" role="main" />
-                    <title>{siteTitle}</title>
-                    <meta name="description" content={siteDescription} />
+                    <title>{title}</title>
+                    <meta name="description" content={description} />
+                    <meta name="image" content={image} />
+                    <meta name="robots" content="index,follow" />
+                    <meta name="twitter:title" content={title} />
+                    <meta name="twitter:card" content="summary" />
+                    <meta name="twitter:description" content={description} />
+                    <meta name="twitter:site" content={twitterHandle} />
+                    <meta name="twitter:creator" content={twitterHandle} />
+                    <meta name="twitter:image:src" content={image} />
+                    <meta property="og:title" content={title} />
+                    <meta property="og:description" content={description} />
+                    <meta property="og:type" content="website" />
+                    <meta property="og:site_name" content={title} />
+                    <meta property="og:url" content={url} />
+                    <meta property="og:image" content={image} />
+                    <script
+                        type="application/ld+json"
+                        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+                    />
                 </Helmet>
                 <Sidebar />
                 {children()}
