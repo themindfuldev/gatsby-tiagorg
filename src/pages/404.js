@@ -4,7 +4,7 @@ import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
 import ExternalLink from '../components/ExternalLink'
 
-class EmailReceived extends React.Component {
+class PageNotFound extends React.Component {
 
     render() {
         return (
@@ -16,10 +16,10 @@ class EmailReceived extends React.Component {
 
                     <section id="email-received">
                         <header className="major">
-                            <h2>Thank you for contacting me!</h2>
+                            <h2>Page not found</h2>
                         </header>
-                        <p>Your email has been received and will be given attention as soon as possible.</p>
-                        <p>In the meanwhile, feel free to browse around to see my work.</p>
+                        <p>Oops! Looks like you've followed a broken link or entered a URL that doesn't exist on this site.</p>
+                        <p>Since you're here, feel free to browse around to see my work.</p>
                         <p>You can also view my <ExternalLink href="https://www.linkedin.com/in/themindfuldev">LinkedIn profile</ExternalLink> and follow me on social networks.</p>
                         <ul className="actions">
                             <li><Link to='/' className="button">Know me better</Link></li>
@@ -32,4 +32,4 @@ class EmailReceived extends React.Component {
     }
 }
 
-export default EmailReceived
+export default PageNotFound
