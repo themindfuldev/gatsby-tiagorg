@@ -38,8 +38,8 @@ class Footer extends React.Component {
                         <li>
                             <ExternalLink href={dev} className="icon" title="DEV">
                                 <span className="fa-layers fa-2x">
-                                    <FontAwesomeIcon icon="square" style={{ transform: 'scaleX(1.4)' }} />
-                                    <span className="fa-layers-text" style={{ fontSize: '0.6em', color: 'black', fontFamily: 'Joystick', padding: '2px 0 0 2px' }}>DEV</span>
+                                    <FontAwesomeIcon icon="square" style={{ transform: 'scaleX(1.1)' }} />
+                                    <span className="fa-layers-text" style={{ fontSize: '0.5em', color: 'black', fontFamily: 'Joystick', padding: '2px 0 0 2px' }}>DEV</span>
                                 </span>
                                 <span className="label">DEV</span>
                             </ExternalLink>

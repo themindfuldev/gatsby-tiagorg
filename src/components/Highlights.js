@@ -10,8 +10,8 @@ class Highlights extends React.Component {
                     <h2>Here are my highlights</h2>
                 </header>
                 <ul>                    
-                    <li>Authored a brand new Product Details Page for a <ExternalLink href="https://www.macys.com/shop/product/kitchenaid-ksm150ps-artisan-5-qt.-stand-mixer?ID=77589">Fortune 500 company</ExternalLink>:
-                        fully responsive, universally (isomorphically) rendered, with a loosely-coupled
+                    <li>Architected and lead the implementation of a brand new Product Details Page for a Fortune 500 company:
+                        fully responsive, universally rendered (isomorphic), with a loosely-coupled
                         component-based architecture, consuming microservices and lazy-loading
                         components not needed during the page load. This project resulted in a $150 Million
                         increase in yearly profits, as well as cutting off the page load time by 50%,

@@ -15,11 +15,11 @@ class Sidebar extends React.Component {
         return (
             <aside id="sidebar">
                 <div className="inner">
-                    <p className="image avatar">
+                    <div className="image avatar">
                         <Link to='/'>
                             <img src={avatar} alt={title} />
                         </Link>
-                    </p>
+                    </div>
                     <div className="my-title">
                         <h1><strong>{title}</strong></h1>
                         <p>{description}</p>

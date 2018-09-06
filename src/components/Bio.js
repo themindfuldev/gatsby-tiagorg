@@ -6,7 +6,7 @@ class Bio extends React.Component {
         return (
             <section id="bio">
                 <header className="major">
-                    <h2>Nice to meet you, my name is Tiago.</h2>
+                    <h2>Nice to meet you, my name is Tiago!</h2>
                 </header>
                 <p>I'm a front-end architect with 12 years of experience in full-stack software development,
                     software architecture, web performance, technical leadership and agile methodologies.

@@ -24,19 +24,19 @@ class Works extends React.Component {
                     <li><ExternalLink href="http://themindfuldev.github.io/lazy-loading-js-modules">
                         Lazy Loading JS modules in the browser</ExternalLink> is about 
                         loading code during page load time vs lazy loading, then how to load JS modules 
-                        both synchronously (during page load) and asynchronously (lazy-load) using System.js 
-                        over Babel, as well as how to used Webpack 2 to bundle your app and resolve dependencies.</li>
+                        both synchronously (during page load) and asynchronously (performing lazy-loading) using System.js 
+                        over Babel, as well as how to use Webpack 2 to bundle your app and resolve dependencies.</li>
                     <li><ExternalLink href="http://themindfuldev.github.io/talk-design-patterns-for-javascript-featuring-modules">
-                        Design Patterns for JavaScript featuring Modules</ExternalLink> is about the 
+                        Design Patterns for JavaScript featuring Modules</ExternalLink> is about some 
                         essential design patterns for JavaScript applications such as Constructor, Façade and 
                         Module, focusing on the different module strategies as CommonJS, AMD and ES2015 Modules.</li>
                     <li><ExternalLink href="http://themindfuldev.github.io/talk-10-tips-for-writing-maintainable-code-in-backbone">
                         10 tips for writing maintainable code in Backbone.js</ExternalLink> and <ExternalLink
                         href="http://themindfuldev.github.io/talk-backbone-tricks-or-treats-html5devconf">
                         Backbone.js tricks or treats</ExternalLink> are about some 
-                        pitfalls, solutions and good practices for common scenarios in Backbone.js. In this talk the 
-                        audience will learn about Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve 
-                        problems about performance, memory, productivity and code organization.</li>
+                        pitfalls, solutions and good practices for common scenarios in Backbone.js, 
+                        covering Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve 
+                        problems with performance, memory, productivity and code organization.</li>
                 </ul>
                 <h3>Articles</h3>
                 <ul>
