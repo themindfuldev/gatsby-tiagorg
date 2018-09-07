@@ -22,21 +22,40 @@ class Works extends React.Component {
                 <h3>Talks</h3>
                 <ul>
                     <li><ExternalLink href="http://themindfuldev.github.io/lazy-loading-js-modules">
-                        Lazy Loading JS modules in the browser</ExternalLink> is about 
-                        loading code during page load time vs lazy loading, then how to load JS modules 
+                        Lazy Loading JS modules in the browser</ExternalLink> is about loading JS modules 
                         both synchronously (during page load) and asynchronously (performing lazy-loading) using System.js 
-                        over Babel, as well as how to use Webpack 2 to bundle your app and resolve dependencies.</li>
+                        over Babel, as well as using Webpack to bundle your app and resolve dependencies.<br/>
+                        Presented at: 
+                        <ul className="single-line">
+                            <li><ExternalLink href="https://forwardjs.com/">ForwardJS (2017)</ExternalLink> in San Francisco, CA</li>
+                            <li><ExternalLink href="http://mobilewebdevconference.com/san-francisco-2017/agenda/">Mobile+Web Devcon (2017)</ExternalLink> in San Francisco, CA</li>
+                            <li><ExternalLink href="http://abstractions.io/">Abstractions (2016)</ExternalLink> in Pittsburgh, PA</li>
+                            <li><ExternalLink href="http://www.html5report.com/conference/newyork/">DevCon5 (2016)</ExternalLink> in New York, NY</li>
+                            <li><ExternalLink href="http://frontenddesignconference.com/2016/">Front-End Design Conference (2016)</ExternalLink> in St. Petersburg, FL</li>
+                            <li><ExternalLink href="http://www.meetup.com/SF-Web-Performance-Group/events/233976760/">SF Web Performance Meetup (2016)</ExternalLink> in San Francisco, CA</li>
+                            <li><ExternalLink href="https://www.meetup.com/Women-Who-Code-SF/events/233503274/">Women Who Code Meetup (2016)</ExternalLink> in San Francisco, CA</li>
+                        </ul></li>
                     <li><ExternalLink href="http://themindfuldev.github.io/talk-design-patterns-for-javascript-featuring-modules">
                         Design Patterns for JavaScript featuring Modules</ExternalLink> is about some 
                         essential design patterns for JavaScript applications such as Constructor, Façade and 
-                        Module, focusing on the different module strategies as CommonJS, AMD and ES2015 Modules.</li>
+                        Module, focusing on the different module strategies as CommonJS, AMD and ES2015 Modules.<br/>
+                        Presented at:
+                        <ul className="single-line">
+                            <li><ExternalLink href="https://www.meetup.com/Women-Who-Code-SF/events/233503303/">Women Who Code Meetup (2016)</ExternalLink> in San Francisco, CA</li>
+                            <li><ExternalLink href="http://www.html5report.com/conference/newyork/">DevCon5 (2015)</ExternalLink> in New York, NY</li>
+                        </ul></li>
                     <li><ExternalLink href="http://themindfuldev.github.io/talk-10-tips-for-writing-maintainable-code-in-backbone">
                         10 tips for writing maintainable code in Backbone.js</ExternalLink> and <ExternalLink
                         href="http://themindfuldev.github.io/talk-backbone-tricks-or-treats-html5devconf">
                         Backbone.js tricks or treats</ExternalLink> are about some 
-                        pitfalls, solutions and good practices for common scenarios in Backbone.js, 
+                        pitfalls, solutions and good practices in Backbone.js, 
                         covering Marionette.js, React, Epoxy.js and Sinon.JS and how do they solve 
-                        problems with performance, memory, productivity and code organization.</li>
+                        problems with performance, memory, productivity and code organization.<br/>
+                        Presented at:
+                        <ul className="single-line">
+                            <li><ExternalLink href="http://www.meetup.com/Dancing-with-Marionette-js/">Dancing with Marionette.js meetup (2015)</ExternalLink> in New York, NY</li>
+                            <li><ExternalLink href="http://html5devconf.com/speakers/tiago_romerogarcia.html">HTMLDevConf (2014)</ExternalLink> in San Francisco, CA</li>
+                        </ul></li>
                 </ul>
                 <h3>Articles</h3>
                 <ul>

@@ -10,12 +10,12 @@ class Highlights extends React.Component {
                     <h2>Here are my highlights</h2>
                 </header>
                 <ul>                    
-                    <li>Architected and lead the implementation of a brand new Product Details Page for a Fortune 500 company:
+                    <li>Architected and lead the implementation of a brand new Product Details Page for a top U.S. department store:
                         fully responsive, universally rendered (isomorphic), with a loosely-coupled
                         component-based architecture, consuming microservices and lazy-loading
-                        components not needed during the page load. This project resulted in a $150 Million
-                        increase in yearly profits, as well as cutting off the page load time by 50%,
-                        reducing the speed index by 80%, while getting close to 100% of unit test coverage.</li>
+                        components not needed during the page load. Results: $150 Million
+                        increase in yearly profits, 50% reduction in the page load time,
+                        80% reduction in the speed index, while close to 100% in unit test coverage.</li>
                     <li>Awarded First Prize on AirPair's 2015 Developer Writing Competition with his article <ExternalLink
                         href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules">
                         The mind-boggling universe of JavaScript Module strategies</ExternalLink>.</li>

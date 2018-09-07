@@ -49,6 +49,9 @@
 	$size-sidebar-pad: 4em;
 
 /* Basic */
+	html {
+		scroll-behavior: smooth;
+	}
 
 	body {
 		background: _palette(bg);
@@ -575,6 +578,10 @@
 		li {
 			padding: 0.5em 0;
 		}
+		
+		ul {
+			list-style: circle;
+		}
 
 		&.single-line {
 			li {
@@ -1018,7 +1025,7 @@
 		max-width: 50em + $size-sidebar-pad;
 		padding: ($size-sidebar-pad * 2) $size-sidebar-pad $size-sidebar-pad $size-sidebar-pad;
 		width: calc(100% - #{$size-sidebar-width});
-
+  
 		> section {
 			border-top: solid 2px _palette(border);
 			margin: $size-sidebar-pad 0 0 0;
