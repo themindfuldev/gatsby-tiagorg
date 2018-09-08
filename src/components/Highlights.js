@@ -25,7 +25,8 @@ class Highlights extends React.Component {
                         branch in Brazil as its first employee, assuming the roles of Software Engineer,
                         Tech Lead and Tech Manager. In the first 4 years,
                         I led the growth to 120 employees in 3 offices.</li>
-                    <li>Awarded First Prize on AirPair's 2015 Developer Writing Competition with my article <ExternalLink
+                    <li>Awarded <ExternalLink href="https://www.airpair.com/100k-writing-competition">First 
+                        Prize on AirPair's 2015 Developer Writing Competition</ExternalLink> with my article <ExternalLink
                         href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules">
                         The mind-boggling universe of JavaScript Module strategies</ExternalLink>.</li>
                     <li>Awarded First Place among the Computer Science students (equivalent to <i>summa cum laude</i>).</li>
