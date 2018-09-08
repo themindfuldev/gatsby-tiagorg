@@ -30,7 +30,7 @@ class Highlights extends React.Component {
                         The mind-boggling universe of JavaScript Module strategies</ExternalLink>.</li>
                     <li>Awarded First Place among the Computer Science students (equivalent to <i>summa cum laude</i>).</li>
                     <li>Organized the <ExternalLink href="https://www.meetup.com/Backbone-js-Hackers/">
-                        Backbone.js Hackers meetup</ExternalLink> in San Francisco, with 1000 members.</li>
+                        Backbone.js Hackers meetup</ExternalLink> in San Francisco, with 1000 members at the time.</li>
                 </ul>
                 <ul className="actions">
                     <li>
