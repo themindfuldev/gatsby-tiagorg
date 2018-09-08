@@ -10,7 +10,7 @@ class Highlights extends React.Component {
                     <h2>Here are my highlights</h2>
                 </header>
                 <ul>                    
-                    <li>Architected and lead the implementation of a brand new Product Details Page for a top U.S. department store:
+                    <li>Architected and led the implementation of a brand new Product Details Page for a top U.S. department store:
                         fully responsive, universally rendered (isomorphic), with a loosely-coupled
                         component-based architecture, consuming microservices and lazy-loading
                         components not needed during the page load. Results: $150 Million
@@ -23,8 +23,8 @@ class Highlights extends React.Component {
                         branch in Brazil as its first employee, assuming the roles of software engineer,
                         tech lead and technical manager. In the first 4 years,
                         led the growth to 120 employees in 3 offices in Belo Horizonte and São Paulo.</li>
-                    <li>Was the main organizer of the <ExternalLink href="https://www.meetup.com/Backbone-js-Hackers/">
-                        Backbone.js Hackers meetup</ExternalLink> in San Francisco.</li>
+                    <li>Organized the <ExternalLink href="https://www.meetup.com/Backbone-js-Hackers/">
+                        Backbone.js Hackers meetup</ExternalLink> in San Francisco, with 1000 members.</li>
                     <li>Awarded First Place among the Computer Science undergraduates at UNIFEI (equivalent to <i>summa cum laude</i>).</li>
                 </ul>
                 <ul className="actions">
