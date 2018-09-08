@@ -1,5 +1,8 @@
 import React from 'react'
 import Link from 'gatsby-link'
+import ExternalLink from '../components/ExternalLink'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import resume from '../assets/pdf/Tiago Romero Garcia - Web Resume.pdf'
 
 class Bio extends React.Component {
     render() {
@@ -8,20 +11,31 @@ class Bio extends React.Component {
                 <header className="major">
                     <h2>Nice to meet you, my name is Tiago!</h2>
                 </header>
-                <p>I'm a front-end architect with 12 years of experience in full-stack software development,
+                <p>I'm a Front-end Architect with 12 years of experience in full-stack software development,
                     software architecture, web performance, technical leadership and agile methodologies.
                     Throughout my career, I've acted as an evangelist for good practices, code quality, unit
-                    tests and positive collaboration, and I've mentored individuals and trained entire teams
-                    with diverse skillsets in front-end, back-end, leadership and agile practices.</p>
+                    tests and positive collaboration, through servant leadership. I've mentored individuals and trained entire teams
+                    with diverse skill sets in front-end, back-end, leadership and agile practices.</p>
                 <p>My published body of work includes more than a dozen articles in renowned websites and magazines
                     such as InfoQ, DZone, Medium, Dev.to, AirPair and Java Magazine. I've spoken at several
                     major conferences internationally, such as ForwardJS, FEDC, Abstractions, DevCon5 and
                     HTML5DevConf, as well as in meetups and corporate trainings in San Francisco and New York.</p>
                 <p>Last but not least, I'm a keen member of the developer community, both authoring and contributing
                     to existing open-source software, and volunteering with non-profits for
-                    under-represented groups as Women Who Code and Girls Develop It.</p>
+                    under-represented groups.</p>
                 <ul className="actions">
-                    <li><Link to='#highlights' className="button">See my highlights</Link></li>
+                    <li>
+                        <ExternalLink href={resume} className="button icon">
+                            <span><FontAwesomeIcon icon={['far', 'file-alt']} /></span>
+                            <span>Open my Resume</span>
+                        </ExternalLink>
+                    </li>
+                    <li>
+                        <Link to='#highlights' className="button icon">
+                            <span><FontAwesomeIcon icon={['fas', 'arrow-down']} /></span>
+                            <span>See my highlights</span>
+                        </Link>
+                    </li>
                 </ul>
             </section>
         )

@@ -3,6 +3,8 @@ import Helmet from 'react-helmet'
 
 import Link from 'gatsby-link'
 import ExternalLink from '../components/ExternalLink'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import resume from '../assets/pdf/Tiago Romero Garcia - Web Resume.pdf'
 
 class EmailReceived extends React.Component {
 
@@ -19,10 +21,20 @@ class EmailReceived extends React.Component {
                             <h2>Thank you for contacting me!</h2>
                         </header>
                         <p>Your email has been received and will be given attention as soon as possible.</p>
-                        <p>In the meanwhile, feel free to browse around to see my work.</p>
-                        <p>You can also view my <ExternalLink href="https://www.linkedin.com/in/themindfuldev">LinkedIn profile</ExternalLink> and follow me on social networks.</p>
+                        <p>In the meanwhile, I invite you to browse around to see my work, and connect with me on social networks.</p>
                         <ul className="actions">
-                            <li><Link to='/' className="button">Know me better</Link></li>
+                            <li>
+                                <ExternalLink href={resume} className="button icon">
+                                    <span><FontAwesomeIcon icon={['far', 'file-alt']} /></span>
+                                    <span>Open my Resume</span>
+                                </ExternalLink>
+                            </li>
+                            <li>
+                                <Link to='/' className="button icon">
+                                    <span><FontAwesomeIcon icon={['far', 'user']} /></span>
+                                    <span>Know me better</span>
+                                </Link>
+                            </li>
                         </ul>
                     </section>
 

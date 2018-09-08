@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import ExternalLink from './ExternalLink'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Interests extends React.Component {
     render() {
@@ -16,7 +17,7 @@ class Interests extends React.Component {
                     <li>Strong believer in <ExternalLink href="https://www.skipprichard.com/9-qualities-of-the-servant-leader/">Servant leadership</ExternalLink>.</li>
                 </ul>
                 <ul className="single-line">
-                    <li>Living by the principle of <ExternalLink href="https://www.artofliving.org/us-en/ahimsa-10-ways-practice-non-violence-your-daily-life">Ahimsa</ExternalLink>.</li>
+                    <li>Living by the principle of <ExternalLink href="https://mettacenter.org/definitions/gloss-concepts/ahimsa/">Ahimsa</ExternalLink>.</li>
                     <li>Focusing on equanimity through mindfulness.</li>
                     <li>Regular yogi and meditator.</li>
                     <li>Ethical vegan.</li>
@@ -24,12 +25,16 @@ class Interests extends React.Component {
                     <li>Volunteer with meal shares at communities in need and animal sanctuaries in the Bay Area.</li>
                 </ul>
                 <ul className="single-line">
-                    <li>Married to <ExternalLink href="https://cintiaromero.com">Cintia Romero</ExternalLink>.</li>
-                    <li>Dog daddy.</li>
+                    <li>Married to <ExternalLink href="https://cintiaromero.com">Cintia Romero</ExternalLink> and dog daddy.</li>
                     <li>Guitar and ukulele player.</li>
                 </ul>
                 <ul className="actions">
-                    <li><Link to="#contact" className="button">Contact me</Link></li>
+                    <li>
+                        <Link to='#contact' className="button icon">
+                            <span><FontAwesomeIcon icon={['fas', 'arrow-down']} /></span>
+                            <span>Contact me</span>
+                        </Link>
+                    </li>
                 </ul>
             </section>
         )

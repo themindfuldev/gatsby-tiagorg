@@ -1,6 +1,7 @@
 import React from 'react'
 import ExternalLink from './ExternalLink'
 import Link from 'gatsby-link'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 class Works extends React.Component {
     render() {
@@ -8,17 +9,7 @@ class Works extends React.Component {
             <section id="works">
                 <header className="major">
                     <h2>Get to know my featured works</h2>
-                </header>
-                <h3>Projects</h3>
-                <ul>
-                    <li>Authored <ExternalLink href="https://github.com/tiagorg/marionette-vdom">
-                        marionette-vdom</ExternalLink>, a Virtual DOM implementation for Marionette.js, with 28k
-                        downloads on NPM as of 09/2018.</li>
-                    <li>Authored <ExternalLink href="https://github.com/tiagorg/jasmine-precondition">
-                        jasmine-precondition</ExternalLink> and <ExternalLink href="https://github.com/tiagorg/karma-jasmine-precondition">
-                        karma-jasmine-precondition</ExternalLink>, a Jasmine helper for asynchronous preconditions
-                        and its karma adapter, with 47k downloads combined on NPM as of 09/2018.</li>
-                </ul>
+                </header>                
                 <h3>Talks</h3>
                 <ul>
                     <li><ExternalLink href="http://themindfuldev.github.io/lazy-loading-js-modules">
@@ -80,8 +71,23 @@ class Works extends React.Component {
                         Revisiting XP - be a thoughtful programmer by exercising more collective ownership (InfoQ)</ExternalLink> is about 
                         effectively exercising collective ownership to avoid confrontation and technical debt.</li>
                 </ul>
+                <h3>Projects</h3>
+                <ul>
+                    <li>Authored <ExternalLink href="https://github.com/tiagorg/marionette-vdom">
+                        marionette-vdom</ExternalLink>, a Virtual DOM implementation for Marionette.js, with 28k
+                        downloads on NPM as of 09/2018.</li>
+                    <li>Authored <ExternalLink href="https://github.com/tiagorg/jasmine-precondition">
+                        jasmine-precondition</ExternalLink> and <ExternalLink href="https://github.com/tiagorg/karma-jasmine-precondition">
+                            karma-jasmine-precondition</ExternalLink>, a Jasmine helper for asynchronous preconditions
+                        and its karma adapter, with 47k downloads combined on NPM as of 09/2018.</li>
+                </ul>
                 <ul className="actions">
-                    <li><Link to="#interests" className="button">See my interests</Link></li>
+                    <li>
+                        <Link to='#interests' className="button icon">
+                            <span><FontAwesomeIcon icon={['fas', 'arrow-down']} /></span>
+                            <span>See my interests</span>
+                        </Link>
+                    </li>
                 </ul>
             </section>
         )

@@ -43,7 +43,7 @@ class Footer extends React.Component {
                                 </span>
                                 <span className="label">DEV</span>
                             </ExternalLink>
-                        </li>
+                        </li>                        
                     </ul>
                     <ul className="copyright">
                         <li>&copy; 2018 {title}</li><li>Design: <ExternalLink href="http://html5up.net">HTML5 UP</ExternalLink></li>
