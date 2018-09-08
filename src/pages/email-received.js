@@ -26,7 +26,7 @@ class EmailReceived extends React.Component {
                             <li>
                                 <ExternalLink href={resume} className="button icon">
                                     <span><FontAwesomeIcon icon={['far', 'file-alt']} /></span>
-                                    <span>Open my Resume</span>
+                                    <span>View my Resume</span>
                                 </ExternalLink>
                             </li>
                             <li>
