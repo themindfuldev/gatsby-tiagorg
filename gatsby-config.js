@@ -8,7 +8,7 @@ module.exports = {
     dev: "https://dev.to/themindfuldev",
     twitterHandle: "@themindfuldev",
     facebookAppId: "703069473065942",
-    avatar: "https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=600",
+    avatar: "https://s.gravatar.com/avatar/5cac784a074b86d771fe768274f6860c?s=1200",
     url: "https://tiagorg.com"
   },
   pathPrefix: '/',
