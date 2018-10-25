@@ -5,7 +5,7 @@ class Contact extends React.Component {
     render() {
         return (
             <section id="contact">
-                <h2>Get In Touch</h2>
+                <h2>Get in touch</h2>
                 <p>Hit me up! I would love to hear out from you.</p>
                 <div className="row">
                     <div className="12u">

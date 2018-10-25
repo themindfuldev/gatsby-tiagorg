@@ -27,13 +27,13 @@ class Bio extends React.Component {
                     <li>
                         <ExternalLink href={resume} className="button icon">
                             <span><FontAwesomeIcon icon={['far', 'file-alt']} /></span>
-                            <span>View my Resume</span>
+                            <span>View my resume</span>
                         </ExternalLink>
                     </li>
                     <li>
                         <Link to='#highlights' className="button icon">
                             <span><FontAwesomeIcon icon={['fas', 'arrow-down']} /></span>
-                            <span>See my highlights</span>
+                            <span>View my highlights</span>
                         </Link>
                     </li>
                 </ul>

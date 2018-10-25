@@ -8,9 +8,29 @@ class Works extends React.Component {
         return (
             <section id="works">
                 <header className="major">
-                    <h2>Get to know my featured works</h2>
-                </header>                
-                <h3>Talks</h3>
+                    <h2>These are my featured works</h2>
+                </header>        
+                <ul className="actions">      
+                    <li>
+                        <Link to='#talks' className="button icon">
+                            <span><FontAwesomeIcon icon={['fas', 'microphone']} /></span>
+                            <span>View my talks</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='#articles' className="button icon">
+                            <span><FontAwesomeIcon icon={['fas', 'book']} /></span>
+                            <span>View my articles</span>
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to='#projects' className="button icon">
+                            <span><FontAwesomeIcon icon={['fas', 'cog']} /></span>
+                            <span>View my projects</span>
+                        </Link>
+                    </li>
+                </ul>  
+                <h3 id="talks">Talks</h3>
                 <ul>
                     <li><ExternalLink href="http://themindfuldev.github.io/lazy-loading-js-modules">
                         Lazy Loading JS modules in the browser</ExternalLink> is about loading JS modules 
@@ -48,7 +68,7 @@ class Works extends React.Component {
                             <li><ExternalLink href="http://html5devconf.com/speakers/tiago_romerogarcia.html">HTMLDevConf (2014)</ExternalLink> in San Francisco, CA</li>
                         </ul></li>
                 </ul>
-                <h3>Articles</h3>
+                <h3 id="articles">Articles</h3>
                 <ul>
                     <li><ExternalLink href="https://medium.freecodecamp.org/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28">
                         Pragmatic rules of web accessibility that will stick to your mind</ExternalLink> is 
@@ -79,7 +99,7 @@ class Works extends React.Component {
                         Revisiting XP - be a thoughtful programmer by exercising more collective ownership</ExternalLink> is about 
                         effectively exercising collective ownership to avoid confrontation and technical debt. Published on InfoQ.</li>
                 </ul>
-                <h3>Projects</h3>
+                <h3 id="projects">Projects</h3>
                 <ul>
                     <li>Authored <ExternalLink href="https://github.com/tiagorg/marionette-vdom">
                         marionette-vdom</ExternalLink>, a Virtual DOM implementation for Marionette.js, with 28k
@@ -93,7 +113,7 @@ class Works extends React.Component {
                     <li>
                         <Link to='#interests' className="button icon">
                             <span><FontAwesomeIcon icon={['fas', 'arrow-down']} /></span>
-                            <span>See my interests</span>
+                            <span>View my interests</span>
                         </Link>
                     </li>
                 </ul>

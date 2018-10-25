@@ -27,7 +27,7 @@ class Highlights extends React.Component {
                         I led the growth to 120 employees in 3 offices.</li>
                     <li>Awarded <ExternalLink href="https://www.airpair.com/100k-writing-competition">First 
                         Prize on AirPair's 2015 Developer Writing Competition</ExternalLink>.</li>
-                    <li>Awarded First Place among the Computer Science students (equivalent to <i>summa cum laude</i>).</li>
+                    <li>Awarded First Place among the Computer Science students at <ExternalLink href="https://en.unifei.edu.br/">UNIFEI</ExternalLink> (equivalent to <i>summa cum laude</i>).</li>
                     <li>Organized the <ExternalLink href="https://www.meetup.com/Backbone-js-Hackers/">
                         Backbone.js Hackers meetup</ExternalLink> in San Francisco from 2014 to 2016, having 1000 members.</li>
                 </ul>
@@ -35,7 +35,7 @@ class Highlights extends React.Component {
                     <li>
                         <Link to='#works' className="button icon">
                             <span><FontAwesomeIcon icon={['fas', 'arrow-down']} /></span>
-                            <span>See my works</span>
+                            <span>View my works</span>
                         </Link>
                     </li>
                 </ul>

@@ -21,7 +21,7 @@ class EmailReceived extends React.Component {
                             <h2>Thank you for contacting me!</h2>
                         </header>
                         <p>Your email has been received and will be given attention as soon as possible.</p>
-                        <p>In the meanwhile, I invite you to browse around to see my work, and connect with me on social networks.</p>
+                        <p>In the meanwhile, I invite you to browse around to view my work, and connect with me on social networks.</p>
                         <ul className="actions">
                             <li>
                                 <ExternalLink href={resume} className="button icon">

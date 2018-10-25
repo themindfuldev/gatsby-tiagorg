@@ -36,7 +36,7 @@ class Footer extends React.Component {
                             </ExternalLink>
                         </li>
                         <li>
-                            <ExternalLink href={dev} className="icon" title="DEV">
+                            <ExternalLink href={dev} className="icon" title="Dev.to">
                                 <FontAwesomeIcon icon={['fab', 'dev']} size="2x" />
                                 <span className="label">DEV</span>
                             </ExternalLink>

@@ -7,11 +7,11 @@ import Sidebar from '../components/Sidebar'
 
 import { library, dom } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSquare, faArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { faArrowDown, faMicrophone, faBook, faCog } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope, faFileAlt, faUser } from '@fortawesome/free-regular-svg-icons'
 import { faTwitter, faGithub, faLinkedin, faDev } from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSquare, faArrowDown, faEnvelope, faFileAlt, faUser, faTwitter, faGithub, faLinkedin, faDev)
+library.add(faArrowDown, faMicrophone, faBook, faCog, faEnvelope, faFileAlt, faUser, faTwitter, faGithub, faLinkedin, faDev)
 
 class Template extends React.Component {
     render() {

@@ -22,7 +22,7 @@ class PageNotFound extends React.Component {
                             <h2>Page not found</h2>
                         </header>
                         <p>Oops! Looks like you've followed a broken link or entered a URL that doesn't exist on this site.</p>
-                        <p>Since you're here, I invite you to browse around to see my work, and connect with me on social networks.</p>
+                        <p>Since you're here, I invite you to browse around to view my work, and connect with me on social networks.</p>
                         <ul className="actions">
                             <li>
                                 <ExternalLink href={resume} className="button icon">
