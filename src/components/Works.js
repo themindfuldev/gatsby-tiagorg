@@ -50,26 +50,34 @@ class Works extends React.Component {
                 </ul>
                 <h3>Articles</h3>
                 <ul>
+                    <li><ExternalLink href="https://medium.freecodecamp.org/pragmatic-rules-of-web-accessibility-that-will-stick-to-your-mind-9d3eb85a1a28">
+                        Pragmatic rules of web accessibility that will stick to your mind</ExternalLink> is 
+                        a refresher on web accessibility (ADA, WCAG, WAI-ARIA, impairment types and exclusions) and 3 practical rules 
+                        that will stick to your mind and give you guidance on implementing a11y in your project. Published on FreeCodeCamp Medium.</li>
+                    <li><ExternalLink href="https://medium.freecodecamp.org/a-brief-review-of-scoping-and-hoisting-in-javascript-e74c38283b65">
+                        A brief review of Scoping and Hoisting in JavaScript</ExternalLink> is about
+                        how Scoping and Hoisting effect the way code we write will deal with our declarations 
+                        (such as var, let, const and function) with a few examples. Published on FreeCodeCamp Medium.</li>
                     <li><ExternalLink href="https://dzone.com/articles/lazy-loading-es2015-modules-in-the-browser">
-                        Lazy Loading ES2015 Modules in the Browser (DZone)</ExternalLink> is about 
+                        Lazy Loading ES2015 Modules in the Browser</ExternalLink> is about 
                         how to load ES2015 modules synchronously (during the page load) and asynchronously 
-                        (performing lazy-loading) using System.js.</li>
+                        (performing lazy-loading) using System.js. Published on DZone.</li>
                     <li><ExternalLink href="https://www.airpair.com/javascript/posts/mastering-es6-higher-order-functions-for-arrays">
-                        Mastering ES6 higher order functions for Arrays (AirPair)</ExternalLink> is about
+                        Mastering ES6 higher order functions for Arrays</ExternalLink> is about
                         the native Higher-order functions for Arrays in JavaScript, and how to develop 
-                        your own higher-order function for Arrays.</li>
+                        your own higher-order function for Arrays. Published on AirPair.</li>
                     <li><ExternalLink href="https://www.airpair.com/javascript/posts/catching-up-with-javascript-higher-order-functions">
-                        Catching up with JavaScript higher-order functions (AirPair)</ExternalLink> is about the
-                        Higher-order functions in JavaScript.</li>
+                        Catching up with JavaScript higher-order functions</ExternalLink> is about the
+                        Higher-order functions in JavaScript. Published on AirPair.</li>
                     <li><ExternalLink href="https://www.airpair.com/javascript/posts/the-tipping-point-of-clientside-performance">
-                        Leveling up - Simple steps to optimize the Critical Rendering Path (AirPair)</ExternalLink> is about
-                        the Critical Rendering Path and how to optimize it.</li>
+                        Leveling up - Simple steps to optimize the Critical Rendering Path</ExternalLink> is about
+                        the Critical Rendering Path and how to optimize it. Published on AirPair.</li>
                     <li><ExternalLink href="https://www.airpair.com/javascript/posts/the-mind-boggling-universe-of-javascript-modules">
-                        The mind-boggling universe of JavaScript Module strategies (AirPair)</ExternalLink> is about 
-                        JavaScript Module strategies and how to work with them.</li>
+                        The mind-boggling universe of JavaScript Module strategies</ExternalLink> is about 
+                        JavaScript Module strategies and how to work with them. Published on AirPair.</li>
                     <li><ExternalLink href="http://www.infoq.com/articles/revisit-p-collective">
-                        Revisiting XP - be a thoughtful programmer by exercising more collective ownership (InfoQ)</ExternalLink> is about 
-                        effectively exercising collective ownership to avoid confrontation and technical debt.</li>
+                        Revisiting XP - be a thoughtful programmer by exercising more collective ownership</ExternalLink> is about 
+                        effectively exercising collective ownership to avoid confrontation and technical debt. Published on InfoQ.</li>
                 </ul>
                 <h3>Projects</h3>
                 <ul>
