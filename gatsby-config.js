@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Tiago Romero Garcia",
-    description: "Front-end architect in San Francisco, conference speaker and article writer.",
+    description: "Tech Lead at Pinterest, conference speaker and article writer.",
     twitter: "https://twitter.com/themindfuldev",
     github: "https://github.com/themindfuldev",
     linkedin: "https://linkedin.com/in/themindfuldev",
