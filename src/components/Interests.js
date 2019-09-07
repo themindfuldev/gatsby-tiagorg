@@ -17,17 +17,16 @@ class Interests extends React.Component {
                     <li>Strong believer in <ExternalLink href="https://www.skipprichard.com/9-qualities-of-the-servant-leader/">Servant leadership</ExternalLink>.</li>
                 </ul>
                 <ul className="single-line">
-                    <li>Living by the principle of <ExternalLink href="https://mettacenter.org/definitions/gloss-concepts/ahimsa/">Ahimsa</ExternalLink>.</li>
-                    <li>Focusing on equanimity through mindfulness.</li>
+                    <li>Driven by empathy, kindness and creativity.</li>
                     <li>Ethical vegan.</li>
-                    <li>Capoeira student.</li>
-                    <li>Daily meditator.</li>
+                    <li>Capoeirista.</li>
+                    <li>Sober.</li>
                     <li>Frequent platelets donor.</li>
-                    <li>Volunteer with meal shares at communities in need and animal sanctuaries in the Bay Area.</li>
+                    <li>Mindfulness practitioner.</li>
                 </ul>
                 <ul className="single-line">
                     <li>Married to <ExternalLink href="https://cintiaromero.com">Cintia Romero</ExternalLink> and dog daddy.</li>
-                    <li>Guitar and ukulele player.</li>
+                    <li>Guitar, ukulele, berimbau and hand percussion player.</li>
                 </ul>
                 <ul className="actions">
                     <li>

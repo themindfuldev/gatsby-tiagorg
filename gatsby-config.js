@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Tiago Romero Garcia",
-    description: "Tech Lead at Pinterest, conference speaker and article writer.",
+    description: "Software Engineer at Pinterest, driven by empathy, kindness and creativity.",
     twitter: "https://twitter.com/themindfuldev",
     github: "https://github.com/themindfuldev",
     linkedin: "https://linkedin.com/in/themindfuldev",
@@ -40,7 +40,7 @@ module.exports = {
           "gatsby-remark-copy-linked-files",
         ],
       },
-    },      
+    },
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
