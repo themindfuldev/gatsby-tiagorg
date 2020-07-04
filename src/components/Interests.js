@@ -11,22 +11,24 @@ class Interests extends React.Component {
                     <h2>Know my interests</h2>
                 </header>
                 <ul className="single-line">
-                    <li>Passionate about clean coding.</li>
+                    <li>Passionate about accessibility.</li>
                     <li>Fond of spreading good practices and mentoring people.</li>
-                    <li>Fan of functional programming.</li>
                     <li>Strong believer in <ExternalLink href="https://www.skipprichard.com/9-qualities-of-the-servant-leader/">Servant leadership</ExternalLink>.</li>
                 </ul>
                 <ul className="single-line">
+                    <li>Latinx, from Brazil.</li>
                     <li>Driven by empathy, kindness and creativity.</li>
                     <li>Ethical vegan.</li>
                     <li>Capoeirista.</li>
+                    <li>Daily meditator.</li>
+                    <li>Kombucha brewer.</li>
                     <li>Sober.</li>
-                    <li>Frequent platelets donor.</li>
-                    <li>Mindfulness practitioner.</li>
                 </ul>
                 <ul className="single-line">
                     <li>Married to <ExternalLink href="https://cintiaromero.com">Cintia Romero</ExternalLink> and dog daddy.</li>
-                    <li>Guitar, ukulele, berimbau and hand percussion player.</li>
+                    <li>Enjoy playing guitar, ukulele, berimbau, pandeiro, atabaque and other hand percussion instruments.</li>
+                    <li>Practictioner of Ahiṃsā (the virtue of nonviolence).</li>
+                    <li>I believe that Black Lives Matter and Love is Love, and I refuse to work for who doesn't share these values.</li>
                 </ul>
                 <ul className="actions">
                     <li>
