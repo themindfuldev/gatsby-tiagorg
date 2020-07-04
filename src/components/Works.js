@@ -33,25 +33,32 @@ class Works extends React.Component {
                 <h3 id="talks">Talks</h3>
                 <ul>
                     <li>
+                        <ExternalLink href="https://docs.google.com/presentation/d/e/2PACX-1vSwbqJQqDupt9FVM9G-PgaUmMk0wcMsKoJhAUl67Z2VpVqwAsd3ks_wWDevuCayTVSyKrlA6njSdPld/pub?start=false&loop=false&delayms=5000&slide=id.p">Acessibilidade na web: milhõe$ de motivos</ExternalLink> is about web accessibily, types of impairments, current legislation, the WCAG, WAI-ARIA and three pragmatic rules for implementing accessibility. [in Portuguese]
+                        <br/>
+                        Presented at:
+                        <ul className="single-line">
+                            <li><ExternalLink href="https://braziljs.org/artigos/on-the-road-sao-carlos-tera-palestra-com-engenheiro-de-software-do-pinterest/">BrazilJS On The Road (2019)</ExternalLink> in São Carlos, SP, Brazil. <ExternalLink href="https://www.youtube.com/watch?v=4SSsnglewkY">[Video minute mark 11:00]</ExternalLink></li>
+                        </ul></li>
+                    <li>
                         <ExternalLink href="http://themindfuldev.github.io/lazy-loading-js-modules">Lazy Loading JS modules in the browser</ExternalLink> is about loading JS modules both synchronously (during page load) and asynchronously (performing lazy-loading) using System.js over Babel, as well as using Webpack to bundle your app and resolve dependencies.
                         <br/>
                         Presented at: 
                         <ul className="single-line">
                             <li><ExternalLink href="https://forwardjs.com/">ForwardJS (2017)</ExternalLink> in San Francisco, CA</li>
-                            <li><ExternalLink href="http://mobilewebdevconference.com/san-francisco-2017/agenda/">Mobile+Web Devcon (2017)</ExternalLink> in San Francisco, CA</li>
-                            <li><ExternalLink href="http://abstractions.io/">Abstractions (2016)</ExternalLink> in Pittsburgh, PA</li>
-                            <li><ExternalLink href="http://www.html5report.com/conference/newyork/">DevCon5 (2016)</ExternalLink> in New York, NY</li>
-                            <li><ExternalLink href="http://frontenddesignconference.com/2016/">Front-End Design Conference (2016)</ExternalLink> in St. Petersburg, FL</li>
-                            <li><ExternalLink href="http://www.meetup.com/SF-Web-Performance-Group/events/233976760/">SF Web Performance Meetup (2016)</ExternalLink> in San Francisco, CA</li>
-                            <li><ExternalLink href="https://www.meetup.com/Women-Who-Code-SF/events/233503274/">Women Who Code Meetup (2016)</ExternalLink> in San Francisco, CA</li>
+                            <li><ExternalLink href="http://mobilewebdevconference.com/san-francisco-2017/agenda/">Mobile+Web Devcon (2017)</ExternalLink> in San Francisco, CA, USA.</li>
+                            <li><ExternalLink href="http://abstractions.io/">Abstractions (2016)</ExternalLink> in Pittsburgh, PA, USA.</li>
+                            <li><ExternalLink href="http://www.html5report.com/conference/newyork/">DevCon5 (2016)</ExternalLink> in New York, NY, USA.</li>
+                            <li><ExternalLink href="http://frontenddesignconference.com/2016/">Front-End Design Conference (2016)</ExternalLink> in St. Petersburg, FL, USA.</li>
+                            <li><ExternalLink href="http://www.meetup.com/SF-Web-Performance-Group/events/233976760/">SF Web Performance Meetup (2016)</ExternalLink> in San Francisco, CA, USA.</li>
+                            <li><ExternalLink href="https://www.meetup.com/Women-Who-Code-SF/events/233503274/">Women Who Code Meetup (2016)</ExternalLink> in San Francisco, CA, USA.</li>
                         </ul></li>
                     <li>
                         <ExternalLink href="http://themindfuldev.github.io/talk-design-patterns-for-javascript-featuring-modules">Design Patterns for JavaScript featuring Modules</ExternalLink> is about some essential design patterns for JavaScript applications such as Constructor, Façade and Module, focusing on the different module strategies as CommonJS, AMD and ES2015 Modules.
                         <br/>
                         Presented at:
                         <ul className="single-line">
-                            <li><ExternalLink href="https://www.meetup.com/Women-Who-Code-SF/events/233503303/">Women Who Code Meetup (2016)</ExternalLink> in San Francisco, CA</li>
-                            <li><ExternalLink href="http://www.html5report.com/conference/newyork/">DevCon5 (2015)</ExternalLink> in New York, NY</li>
+                            <li><ExternalLink href="https://www.meetup.com/Women-Who-Code-SF/events/233503303/">Women Who Code Meetup (2016)</ExternalLink> in San Francisco, CA, USA.</li>
+                            <li><ExternalLink href="http://www.html5report.com/conference/newyork/">DevCon5 (2015)</ExternalLink> in New York, NY, USA.</li>
                         </ul></li>
                     <li>
                         <ExternalLink href="http://themindfuldev.github.io/talk-10-tips-for-writing-maintainable-code-in-backbone">10 tips for writing maintainable code in Backbone.js</ExternalLink> and <ExternalLink
@@ -59,8 +66,8 @@ class Works extends React.Component {
                         <br/>
                         Presented at:
                         <ul className="single-line">
-                            <li><ExternalLink href="http://www.meetup.com/Dancing-with-Marionette-js/">Dancing with Marionette.js meetup (2015)</ExternalLink> in New York, NY</li>
-                            <li><ExternalLink href="http://html5devconf.com/speakers/tiago_romerogarcia.html">HTMLDevConf (2014)</ExternalLink> in San Francisco, CA</li>
+                            <li><ExternalLink href="http://www.meetup.com/Dancing-with-Marionette-js/">Dancing with Marionette.js meetup (2015)</ExternalLink> in New York, NY, USA.</li>
+                            <li><ExternalLink href="http://html5devconf.com/speakers/tiago_romerogarcia.html">HTMLDevConf (2014)</ExternalLink> in San Francisco, CA, USA.</li>
                         </ul></li>
                 </ul>
                 <h3 id="articles">Articles</h3>
@@ -84,8 +91,8 @@ class Works extends React.Component {
                 </ul>
                 <h3 id="projects">Projects</h3>
                 <ul>
-                    <li>Authored <ExternalLink href="https://github.com/tiagorg/marionette-vdom">marionette-vdom</ExternalLink>, a Virtual DOM implementation for Marionette.js, with 30k downloads on NPM as of 03/2019.</li>
-                    <li>Authored <ExternalLink href="https://github.com/tiagorg/jasmine-precondition">jasmine-precondition</ExternalLink> and <ExternalLink href="https://github.com/tiagorg/karma-jasmine-precondition">karma-jasmine-precondition</ExternalLink>, a Jasmine helper for asynchronous preconditions and its karma adapter, with 64k downloads combined on NPM as of 03/2019.</li>
+                    <li>Authored <ExternalLink href="https://github.com/tiagorg/marionette-vdom">marionette-vdom</ExternalLink>, a Virtual DOM implementation for Marionette.js, with 34k downloads on NPM as of 07/2020.</li>
+                    <li>Authored <ExternalLink href="https://github.com/tiagorg/jasmine-precondition">jasmine-precondition</ExternalLink> and <ExternalLink href="https://github.com/tiagorg/karma-jasmine-precondition">karma-jasmine-precondition</ExternalLink>, a Jasmine helper for asynchronous preconditions and its karma adapter, with 100k downloads combined on NPM as of 07/2020.</li>
                 </ul>
                 <ul className="actions">
                     <li>
