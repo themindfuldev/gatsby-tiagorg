@@ -18,12 +18,6 @@ class Footer extends React.Component {
                 <div className="inner">
                     <ul className="icons">
                         <li>
-                            <ExternalLink href={twitter} className="icon" title="Twitter">
-                                <FontAwesomeIcon icon={['fab', 'twitter']} size="2x"/>
-                                <span className="label">Twitter</span>
-                            </ExternalLink>
-                        </li>
-                        <li>
                             <ExternalLink href={github} className="icon" title="Github">
                                 <FontAwesomeIcon icon={['fab', 'github']} size="2x" />
                                 <span className="label">Github</span>

@@ -16,10 +16,11 @@ class Interests extends React.Component {
                     <li>Strong believer in <ExternalLink href="https://www.skipprichard.com/9-qualities-of-the-servant-leader/">Servant leadership</ExternalLink>.</li>
                 </ul>
                 <ul className="single-line">
-                    <li>Latinx, from Brazil.</li>
+                    <li>Latino, from Brazil.</li>
                     <li>Driven by empathy, kindness and creativity.</li>
                     <li>Ethical vegan.</li>
                     <li>Capoeirista.</li>
+                    <li>Rope jumper.</li>
                     <li>Daily meditator.</li>
                     <li>Kombucha brewer.</li>
                     <li>Sober.</li>
